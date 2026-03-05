@@ -61,4 +61,10 @@ void display() {
             cout << "--";
         }
     }
+    cout << endl;
+    cout << endl;
+    cout << "jumlah pass - " << endl; // menempelkan jmlah dari pass
+    cout << endl;
+    cout << endl;
+    
 }
