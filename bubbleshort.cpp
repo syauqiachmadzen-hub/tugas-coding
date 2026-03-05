@@ -19,4 +19,9 @@ void input() {
     cout << "=====================" << endl;
     cout << "masukkan elemen array" << endl;
     cout << "=====================" << endl;
+
+    for (int i = 0; i < n; i++){
+        cout << "data ke-" << (i + 1) << ": ";
+        cin >> arr{i};
+    }
 }
