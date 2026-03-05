@@ -65,6 +65,15 @@ void display() {
     cout << endl;
     cout << "jumlah pass - " << endl; // menempelkan jmlah dari pass
     cout << endl;
-    cout << endl;
-    
+    cout << endl; 
+}
+
+int main() {
+    input();
+
+    bubbleSortArray();
+    display();
+
+    system("pause");
+    return 0;
 }
